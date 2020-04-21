@@ -1,0 +1,51 @@
+Type=Exe
+Form=consult.frm
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Module=Module1; consult.bas
+Object={F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0; comdlg32.ocx
+Module=APIStuff; consult2.bas
+Form=consult2.frm
+Form=consult3.frm
+Module=modSettings; consult3.bas
+Object={C1A8AF28-1257-101B-8FB0-0020AF039CA3}#1.1#0; mci32.Ocx
+IconForm="Form1"
+Startup="Form1"
+HelpFile=""
+Title="Consulting Time"
+ExeName32="consult.exe"
+Command32=""
+Name="Consult"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=2
+MinorVer=9
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionComments="www.jpelectron.com"
+VersionCompanyName="JPElectron.com"
+VersionFileDescription="Consulting Time"
+VersionLegalCopyright="(c) 2010 JPElectron.com"
+VersionProductName="Consulting Time"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[AppForge Global]
+MODID=36C101AD-FAAD-4717-86EA-0CBDF3D791C5

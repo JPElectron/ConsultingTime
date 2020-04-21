@@ -1,0 +1,102 @@
+[Root]
+Most Recent Package=Consulting Time 2.8
+
+
+[Package|Consulting Time 2.8|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\JP\Desktop\Consulting Time\Package
+
+[Package|Consulting Time 2.8|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Consulting Time 2.8|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Consulting Time 2.8|Files Found]
+
+[Package|Consulting Time 2.8|Files Released]
+
+[Package|Consulting Time 2.8|Missing Dependency Information]
+
+[Package|Consulting Time 2.8|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MCI32.OCX=
+
+[Package|Consulting Time 2.8|Files Added]
+
+[Package|Consulting Time 2.8|Files Removed]
+
+[Package|Consulting Time 2.8|Files In Project]
+C:\Documents and Settings\JP\Desktop\Consulting Time\consult.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MCI32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Consulting Time 2.8|Configure Registry Files]
+Applicable=No
+
+[Package|Consulting Time 2.8|Configure Remote Servers]
+Applicable=No
+
+[Package|Consulting Time 2.8|Install Locations]
+C:\Documents and Settings\JP\Desktop\Consulting Time\consult.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Consulting Time 2.8|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\JP\Desktop\Consulting Time\consult.exe=No
+
+[Package|Consulting Time 2.8|Distribution]
+Type=single
+Size=
+Title=Consulting Time 2.8
+
+[Package|Consulting Time 2.8|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=-1
+Parent0=
+Group1=$(Start Menu)
+PrivateGroup1=-1
+Parent1=
+
+[Package|Consulting Time 2.8|$(Programs)]
+Icon1=consult.exe
+Title1=Consulting Time
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Consulting Time 2.8|$(Start Menu)]
+Icon1=consult.exe
+Title1=Consulting Time
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|Consulting Time 2.8|Package]
+PackageFolder=C:\Documents and Settings\JP\Desktop\Consulting Time\Package
+ProjectFolder=C:\Documents and Settings\JP\Desktop\Consulting Time
+ServerSideCab=
+File1=C:\Documents and Settings\JP\Desktop\Consulting Time\Package\setup.exe
+File2=C:\Documents and Settings\JP\Desktop\Consulting Time\Package\Setup.Lst
+File3=C:\Documents and Settings\JP\Desktop\Consulting Time\Package\consult.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
