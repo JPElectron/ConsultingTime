@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://www.jpelectron.com/readme/pop3led.asp
+[InternetShortcut]
+URL=http://www.jpelectron.com/readme/consultime.asp
+Modified=20B1E125B111C70161
+HotKey=0
+IDList=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
