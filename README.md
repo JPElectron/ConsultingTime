@@ -3,12 +3,12 @@ Keep track of time on the phone or at the client site for easy billing.  Save re
 
 Tested on Windows 2000, XP, Server 2003, Vista, Server 2008, Windows 7
 
-Installation:
+<b>Installation:</b>
 
 1) Run consult-setup.exe and follow the wizard
 2) Click on the Consulting Time shortcut in the Start menu to launch
 
-Usage:
+<b>Usage:</b>
 
 Give the timer a name (of a client or project) or select a previously used name from the drop down, then start the timer. Each start and stop time, as well as the total time is included on save. Click the disk icon to save to a text file or the Outlook icon to open a new calendar appointment.
 
